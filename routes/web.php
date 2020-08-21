@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*
 Route::get('/', function () {
     return view('welcome');
 });
+*/
+
+Route::get('/', 'CalendarController@index');
+Route::get('/calendar', 'CalendarController@index');
+
+Route::post('/event/add', 'EventController@add');
