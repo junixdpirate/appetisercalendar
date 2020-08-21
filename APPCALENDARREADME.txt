@@ -17,3 +17,7 @@ Before doing the test:
 run composer install to updates libraries and dependecies
 
 run migration. It will create the table calendar_event used for saving the event.
+
+github url
+
+https://junixdpirate:b31826d8936cb000998da1f83207aaac85770cef@github.com/junixdpirate/appetisercalendar.git
