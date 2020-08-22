@@ -160,7 +160,7 @@ var calendarApp = new Vue({
                         this.calendarEvents.push(
                             {
                                 eventid : id, 
-                                date : monthNames[objDateFrom.getMonth()] + ', ' + objDateFrom.getDate(),
+                                date : monthNames[objDateFrom.getMonth()] + ' ' + objDateFrom.getDate(),
                                 event : this.eventdata.event,
                                 selected : this.isWeekdaySelected(objDateFrom.getDay())
                             });
